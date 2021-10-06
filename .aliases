@@ -8,6 +8,9 @@ alias pbpaste='xclip -selection clipboard -o'
 # United colors of `grep` output
 alias grep='grep --color=auto '
 
+# by providing an empty string for the alternate editor,
+# we force emacs to start a daemon and connect if one is
+# not already running
 alias ec='emacsclient -c -n --alternate-editor=""'
 
 alias et='emacsclient -nw --alternate-editor=""'
