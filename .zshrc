@@ -109,6 +109,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# sourcing custom aliases
 source ~/.dotdot/.aliases
 
+# sourcing path shenanigans
 source ~/.dotdot/.path
+
+# Initialize rbenv
+eval "$(rbenv init -)"
