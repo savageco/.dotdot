@@ -1,0 +1,9 @@
+# Kuberneats
+alias k='kubectl'
+
+# dont want to remember if you're on a linux box or a mac? hard copy.
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+
+# United colors of `grep` output
+alias grep='grep --color=auto '
