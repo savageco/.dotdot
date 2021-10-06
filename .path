@@ -1,0 +1,2 @@
+# Add doom to path
+export PATH="$HOME/.emacs.d/bin:$PATH"
