@@ -114,9 +114,8 @@ source ~/.dotdot/.aliases
 # sourcing path shenanigans
 source ~/.dotdot/.path
 
-# Initialize rbenv
-eval "$(rbenv init -)"
-
 # set gopath for pre 1.8 stuff
 export GOPATH=$HOME/go
+
+# add mise shims
 eval "$(~/.local/bin/mise activate zsh)"
