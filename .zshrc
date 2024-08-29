@@ -119,3 +119,4 @@ eval "$(rbenv init -)"
 
 # set gopath for pre 1.8 stuff
 export GOPATH=$HOME/go
+eval "$(~/.local/bin/mise activate zsh)"
