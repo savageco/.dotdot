@@ -1,0 +1,8 @@
+[user]
+  name = connor-savage
+  email = connor.savage@collibra.com
+[color]
+  # Enable colors in color-supporting terminals
+  ui = auto
+[url "ssh://git@github.com/"]
+    insteadOf = https://github.com/
