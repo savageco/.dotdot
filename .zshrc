@@ -118,4 +118,4 @@ source ~/.dotdot/.path
 export GOPATH=$HOME/go
 
 # add mise shims
-eval "$(~/.local/bin/mise activate zsh)"
+eval "$(/opt/homebrew/bin/mise activate zsh)"
