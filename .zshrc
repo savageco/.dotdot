@@ -119,3 +119,6 @@ export GOPATH=$HOME/go
 
 # add mise shims
 eval "$(/opt/homebrew/bin/mise activate zsh)"
+
+# add direnv support
+eval "$(direnv hook zsh)"
