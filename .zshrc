@@ -78,6 +78,7 @@ plugins=(
 	copybuffer
 	dirhistory
 	kubectl
+	terraform
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -113,9 +114,6 @@ source ~/.dotdot/.aliases
 
 # sourcing path shenanigans
 source ~/.dotdot/.path
-
-# set gopath for pre 1.8 stuff
-export GOPATH=$HOME/go
 
 # add mise shims
 eval "$(/opt/homebrew/bin/mise activate zsh)"
