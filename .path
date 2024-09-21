@@ -9,3 +9,6 @@ export PATH="$PATH:$HOME/go/bin"
 
 # Add coursier to path
 export PATH="$PATH:$HOME/Library/Application Support/Coursier/bin"
+
+# Add gnubin to path to ensure doom is using brew provided grep to support PCRE lookaheads
+PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
