@@ -6,3 +6,6 @@ export PATH=$PATH:/usr/local/go/bin
 
 # Add go bin to path
 export PATH="$PATH:$HOME/go/bin"
+
+# Add coursier to path
+export PATH="$PATH:$HOME/Library/Application Support/Coursier/bin"
