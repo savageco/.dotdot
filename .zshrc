@@ -120,3 +120,6 @@ eval "$(/opt/homebrew/bin/mise activate zsh)"
 
 # add direnv support
 eval "$(direnv hook zsh)"
+
+# ensure the right docker host config is established for colima
+DOCKER_HOST="unix://$HOME/.colima/docker.sock"
